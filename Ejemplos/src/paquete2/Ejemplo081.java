@@ -26,7 +26,7 @@ public class Ejemplo081 {
         // arreglo de tipo entero
         // se le asigna valores concretos al arreglo cuando se lo
         // inicializa
-        int[] arreglo1 = {1000, 2000, 3000, 4003, 5000}; // arreglo de 5 elementos
+        int[] arreglo1 = {1001, 2007, 3000, 4003, 5000}; // arreglo de 5 elementos
         int[] sumas = new int[2];
         
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
@@ -46,8 +46,10 @@ public class Ejemplo081 {
         
         // System.out.printf("La suma de los valores del arreglo es: %d\n", suma);
         // cadenaFinal = String.format("%s%d\n", cadenaFinal, suma);
-        System.out.printf("%s\nLa suma de los valores pares e impares del arreglo es:%d\n", 
-                cadenaFinal, suma);
+        System.out.printf("%s\nLa suma de los valores del arreglo es:%d\n"
+                + "La suma de los valores pares es: %d\n" 
+                + "La suma de los valores impares es: %d\n",
+                cadenaFinal, suma, sumas[0], sumas[1]);
         
     }
     /*
