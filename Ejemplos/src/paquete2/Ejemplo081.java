@@ -34,7 +34,7 @@ public class Ejemplo081 {
             if(arreglo1[i] % 2 == 0){
                 sumas[0] = sumas[0] + arreglo1[i];
             }else{
-                sumas[0] = sumas[1] + arreglo1[i]; 
+                sumas[1] = sumas[1] + arreglo1[i]; 
             }
             // agrego el valor de la posición del arreglo a la variable
             // acumuladora  suma
